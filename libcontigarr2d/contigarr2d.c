@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /*
- * to be able to use dynamic a[i][j] in contigious region
+ * to be able to use dynamic a[i][j] in contiguous region
  * ex: a[2][3]
  * {}: index(pointer) (): data
  * index | data

@@ -1,6 +1,6 @@
 contigarr2d - Allocate contiguous two dimensional array in C.
               This method increases the memory usage compared to one dimensional array, but it is contiguous and can use two indxes(e.g. array[i][j]).
-              The best way is just to use one dimensional array as a two dimensional array with an index function like "inline size_t idx(size_t imax, size_t i, size_t j) { return  i*jmax+j; }".
+              The best way is just to use one dimensional array as a two dimensional array with an index function like "inline size_t idx(size_t jmax, size_t i, size_t j) { return  i*jmax+j; }".
 
 $ ./a.out 4 4
 non-contiguous usual method:
